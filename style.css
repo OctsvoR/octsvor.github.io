@@ -32,15 +32,13 @@ body {
 	align-items: center;
 	
 	text-decoration: none;
-	font-size: 26pt;
+	font-size: 22pt;
 
+	background-color: var(--light);
 	color: var(--dark);
-	background-color: var(--white);
 
-	border-radius: 50%;
-	outline-color: var(--dark);
 	outline-style: solid;
-	outline-width: 6px;
+	outline-color: var(--dark);
 }
 
 .up p {
@@ -159,11 +157,13 @@ body {
 .footer {
 	display: flex;
 
-	min-height: 80px;
-	max-height: 80px;
+	min-height: 120px;
+	max-height: 120px;
 
 	justify-content: center;
 	align-items: center;
+
+	font-size: 15pt;
 
 	background-color: var(--dark);
 	color: var(--white);
