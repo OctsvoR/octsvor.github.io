@@ -1,0 +1,163 @@
+html {
+	scroll-behavior: smooth;
+	scrollbar-color: hsl(230, 30%, 30%) #090e2a;
+}
+
+body {
+	margin: 0;
+
+	font-family: 'Helvetica';
+}
+
+.up {
+	display: flex;
+
+	width: 50px;
+	height: 50px;
+
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+
+	z-index: 1;
+
+	justify-content: center;
+	align-items: center;
+	
+	text-decoration: none;
+	font-size: 26pt;
+
+	color: #090e2a;
+	background-color: white;
+
+	border-radius: 50%;
+	outline-color: #090e2a;
+	outline-style: solid;
+	outline-width: 6px;
+}
+
+.up p {
+	transform: translateY(-3px);
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+
+	width: calc(100%);
+	
+	min-height: 80px;
+	max-height: 80px;
+
+	justify-content: center;
+
+	position: absolute;
+}
+
+.navbar-button {
+	display: flex;
+
+	padding: 60px 40px;
+
+	align-items: center;
+
+	font-size: 15pt;
+	text-decoration: none;
+	font-weight: bold;
+
+	color: white;
+}
+
+.navbar-button:hover {
+	background-color: #131834;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	text-align: center;
+}
+
+.content-title {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0;
+
+	justify-content: center;
+
+	width: 100%;
+	height: calc(100vh);
+
+	background-color: #090e2a;
+	color: white;
+}
+
+.content-title-first {
+	margin: 0;
+	margin-bottom: -2rem;
+
+	font-size: 30pt;
+}
+
+.content-title-second {
+	margin: 0;
+	
+	font-size: 140pt;
+}
+
+.content-title-third {
+	margin: 0;
+	margin-top: 1rem;
+	letter-spacing: 20px;
+	
+	font-weight: 0;
+	font-size: 20pt;
+}
+
+.content-about {
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+	height: calc(50vh);
+
+	justify-content: center;
+	align-items: center;
+	
+	background-color: #DDE2FE;
+	color: #090E2A;
+}
+
+.content-about-title {
+	margin: 0;
+	
+	width: 50%;
+
+	text-align: left;
+	font-size: 80pt;
+}
+
+.content-about-paragraph {
+	width: 50%;
+	
+	text-align: left;
+	font-size: 20pt;
+	line-height: 40px;
+}
+
+.footer {
+	display: flex;
+
+	min-height: 80px;
+	max-height: 80px;
+
+	justify-content: center;
+	align-items: center;
+
+	background-color: #090e2a;
+	color: white;
+}
