@@ -1,3 +1,10 @@
+:root {
+	--dark: #090e2a;
+	--lighter-dark: #131834;
+	--light: #dde2fe;
+	--white: #fff;
+}
+
 html {
 	scroll-behavior: smooth;
 	scrollbar-color: hsl(230, 30%, 30%) #090e2a;
@@ -27,11 +34,11 @@ body {
 	text-decoration: none;
 	font-size: 26pt;
 
-	color: #090e2a;
-	background-color: white;
+	color: var(--dark);
+	background-color: var(--white);
 
 	border-radius: 50%;
-	outline-color: #090e2a;
+	outline-color: var(--dark);
 	outline-style: solid;
 	outline-width: 6px;
 }
@@ -57,7 +64,7 @@ body {
 .navbar-button {
 	display: flex;
 
-	padding: 60px 40px;
+	padding: 60px 40px 40px 40px;
 
 	align-items: center;
 
@@ -65,11 +72,11 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 
-	color: white;
+	color: var(--white);
 }
 
 .navbar-button:hover {
-	background-color: #131834;
+	background-color: var(--lighter-dark);
 }
 
 .content {
@@ -92,8 +99,8 @@ body {
 	width: 100%;
 	height: calc(100vh);
 
-	background-color: #090e2a;
-	color: white;
+	background-color: var(--dark);
+	color: var(--white);
 }
 
 .content-title-first {
@@ -128,8 +135,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	
-	background-color: #DDE2FE;
-	color: #090E2A;
+	background-color: var(--light);
+	color: var(--dark);
 }
 
 .content-about-title {
@@ -158,6 +165,6 @@ body {
 	justify-content: center;
 	align-items: center;
 
-	background-color: #090e2a;
-	color: white;
+	background-color: var(--dark);
+	color: var(--white);
 }
